@@ -1,0 +1,37 @@
+{
+  "global": {
+    "verbose": false,
+    "publicIP": null,
+    "serverName": null,
+    "language": "en",
+    "forceFXServerPort": null
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "healthCheck": {
+      "failThreshold": 15,
+      "failLimit": 300
+    },
+    "heartBeat": {
+      "failThreshold": 15,
+      "failLimit": 30
+    }
+  },
+  "authenticator": {},
+  "webServer": {},
+  "discordBot": {
+    "enabled": false,
+    "token": null,
+    "announceChannel": null,
+    "statusCommand": "/status"
+  },
+  "fxRunner": {
+    "serverDataPath": null,
+    "cfgPath": null,
+    "setPriority": false,
+    "onesync": false,
+    "autostart": false,
+    "quiet": false
+  }
+}
